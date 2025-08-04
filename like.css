@@ -34,6 +34,15 @@ button{
     top: 70%;
     transform: translate(-50%, -50%);
 }
+@media(max-width: 480px) {
+    .no, .yes {
+        display: flex;
+        justify-content: space-around;
+         box-sizing: border-box;
+         
+    }
+}
+   
 
 button:hover{
     opacity: 0.6;
